@@ -31,15 +31,14 @@ The text property is the shorthand property for:<br>
 -text-indentation <br>
 
 ANIMATION PROPERTY <br>
-  
 The animation property is a shorthand property for:<br>
 -animation-name<br>
 -animation-duration<br>
 -animation-timing-function<br>
 -animation-delay<br>
 -animation-iteration-count<br>
-  #SCREENSHOTS<BR>
-  
+
+#SCREENSHOTS<br> 
   HOME<BR>
   
   https://user-images.githubusercontent.com/88573577/130100355-0752e1d0-0308-4c13-a0de-c2c8580ebe87.mp4
