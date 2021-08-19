@@ -31,7 +31,6 @@ The text property is the shorthand property for:<br>
 ANIMATION PROPERTY <br>
   
 The animation property is a shorthand property for:<br>
-
 -animation-name<br>
 -animation-duration<br>
 -animation-timing-function<br>
