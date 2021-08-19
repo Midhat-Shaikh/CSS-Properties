@@ -2,16 +2,18 @@
 CSS is the language we use to style an HTML document.<br>
 CSS describes how HTML elements should be displayed.<br>
 This project is created using CSS along with HTML.<br>
-# CSS PROPERTIES<br>
-BORDER PROPERTY<br>
 
+# CSS PROPERTIES<br>
+
+BORDER PROPERTY<br>
+It used to style the border of an element.<br>
 The border property is a shorthand property for:<br>
 -border-width <br>
 -border-style <br>
 -border-color <br>
 
 FONT PROPERTY<BR>
-  
+CSS Font property is used to control the look of texts.<br>
 The font property is a shorthand property for:<br>
 -font-style <br>
 -font-variant <br>
@@ -19,8 +21,8 @@ The font property is a shorthand property for:<br>
 -font-size/line-height <br>
 -font-family <br>
   
-@TEXT PROPERTY<br>
-  
+TEXT PROPERTY<br>
+Text formatting properties is used to format text and style text.   
 The text property is the shorthand property for:<br>
 -text-color <br>
 -text-alignment <br>
