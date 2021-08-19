@@ -38,8 +38,7 @@ The animation property is a shorthand property for:<br>
 -animation-timing-function<br>
 -animation-delay<br>
 -animation-iteration-count<br>
-
-  #SCREENSHOTS <br>
+  #SCREENSHOTS<BR>
   
   HOME<BR>
   
