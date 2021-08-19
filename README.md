@@ -19,7 +19,7 @@ The font property is a shorthand property for:<br>
 -font-size/line-height <br>
 -font-family <br>
   
-TEXT PROPERTY<br>
+@TEXT PROPERTY<br>
   
 The text property is the shorthand property for:<br>
 -text-color <br>
