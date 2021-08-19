@@ -1,0 +1,216 @@
+.topnav {
+  font-family: times new roman;
+  overflow: hidden;
+  background-color: black;
+}
+
+.topnav a {
+  float: left;
+  border-right: 1px solid #bbb;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+* {
+  box-sizing: border-box;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 10px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+p{
+	font-size:20px;
+	padding:5px;
+	margin: 0 10px;
+	font-family: times new roman;
+}
+
+p.dotted {
+	border-style: dotted;
+	border-color: red;
+}
+
+p.dashed {	
+	border-style: dashed;
+	border-color: blue;
+}
+
+p.solid {
+	border-style: solid;
+	border-color: yellow;
+}
+
+p.double {
+	border-style: double;
+	border-color:gray;
+}
+p.groove {
+	border-style: groove;
+	border-color:violet;
+}
+p.ridge {
+	border-style: ridge;
+	border-color:green;
+}
+
+p.inset {
+	border-style: inset;
+	border-color:orange;
+}
+
+p.outset {
+	border-style: outset;
+	border-color:gold;
+}
+
+p.none {
+	border-style: none;
+}
+
+p.hidden {
+	border-style: hidden;
+	width: fit-content;
+}
+
+p.mix {
+	border-style: dotted dashed solid double;
+	border-color:crimson;	
+}
+
+
+
+p.times{	margin: 0 50px;}
+p.lucida{	margin: 0 50px;}
+p.arial{	margin: 0 50px;}
+p.monospace{	margin: 0 50px;}
+p.Papyrus{	margin: 0 50px;}
+p.Brush_Script_MT{	margin: 0 50px;}
+p.Courier_New{	margin: 0 50px;}
+p.Georgia{	margin: 0 50px;}
+
+
+
+.center{
+	text-align: center;
+	color: blue;
+	background-color: black;
+	background-size:fit-content;
+}
+
+.left{
+	text-align: left;
+	color: red;
+	background-color: black;
+}
+
+.right{
+	text-align: right;
+	color: yellow;
+	background-color: black;
+}
+
+.h1{
+	font-family:arial;
+}
+
+
+.colorchanging{
+	padding-top:20px;
+	font-size: 40px;
+	font-family:  times new roman;
+	animation: color-change 5s infinite;
+}
+
+@keyframes color-change {
+  0% { color: red; }
+  10% {color: violet}
+  20% {color: indigo;}
+  30% {color: blue;}
+  40% {color: green;}
+  50% {color: yellow}
+  60% {color: orange}
+  70% {color: red;}
+}
+
+
+.slide{
+	font-size: 40px;
+	color: blue;
+	padding-top: 60px;
+	font-family: times new roman;
+	overflow:hidden;
+	animation: textslide 3s;
+	animation-iteration-count: infinite;
+}
+
+@keyframes textslide {
+  from {
+    margin-left: 100%;
+    width: 300%; 
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+
+.typing-demo {
+  padding-left:20px;
+  width: 40ch;
+  animation: typing 2s steps(18), blink;
+  white-space: nowrap;
+  overflow: hidden;
+  border-right: 3px solid;
+  font-family: times new roman;
+  font-size: 40px;
+  animation-iteration-count: 3;
+}
+
+@keyframes typing {
+  from {
+    width: 0
+  }
+}
+    
+@keyframes blink {
+  50% {
+    border-color: transparent
+  }
+}
+.animate{
+  width: 190px;
+  height: 120px;
+  background-color: red;
+  position: relative;
+  animation-name: turn;
+  animation-duration: 6s;
+  animation-timing-function: linear;
+  animation-delay: 3s;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  border-radius: 20px;
+}
+
+@keyframes turn {
+  0%   {background-color:red; left:20px; top:0px;}
+  25%  {background-color:yellow; left:1300px; top:0px;}
+  50%  {background-color:blue; left:1300px; top:200px;}
+  75%  {background-color:green; left:0px; top:200px;}
+  100% {background-color:red; left:0px; top:0px;}
+}
