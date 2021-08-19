@@ -22,8 +22,18 @@ The font property is a shorthand property for:<br>
 TEXT PROPERTY<br>
   
 The text property is the shorthand property for:<br>
--text-color 
--text-alignment 
--text-decoration 
--text-transformation 
--text-indentation 
+-text-color <br>
+-text-alignment <br>
+-text-decoration <br>
+-text-transformation <br>
+-text-indentation <br>
+
+ANIMATION PROPERTY <br>
+  
+The animation property is a shorthand property for:<br>
+
+-animation-name<br>
+-animation-duration<br>
+-animation-timing-function<br>
+-animation-delay<br>
+-animation-iteration-count<br>
