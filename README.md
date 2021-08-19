@@ -36,3 +36,6 @@ The animation property is a shorthand property for:<br>
 -animation-timing-function<br>
 -animation-delay<br>
 -animation-iteration-count<br>
+
+  #SCREENSHOTS
+  ![image](https://user-images.githubusercontent.com/88573577/130046925-6a4418a1-50f4-49e5-95a8-4c8ec83c6e73.png)
