@@ -40,8 +40,11 @@ The animation property is a shorthand property for:<br>
   #SCREENSHOTS <br>
   
   HOME<BR>
-  ![image](https://user-images.githubusercontent.com/88573577/130046925-6a4418a1-50f4-49e5-95a8-4c8ec83c6e73.png)
   
+
+https://user-images.githubusercontent.com/88573577/130100355-0752e1d0-0308-4c13-a0de-c2c8580ebe87.mp4
+
+
   BORDERS<BR>
   ![image](https://user-images.githubusercontent.com/88573577/130047223-dbc80cd6-4d2f-48b1-b1c9-8794752580d0.png)
   
